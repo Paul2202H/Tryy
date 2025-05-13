@@ -18,7 +18,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X6820
-PRODUCT_NAME := twrp_X6820
+PRODUCT_NAME := omni_X6820
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Zero Ultra
 PRODUCT_MANUFACTURER := infinix
