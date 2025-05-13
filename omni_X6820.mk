@@ -14,11 +14,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/infinix/X6820/device.mk)
 
 # Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X6820
-PRODUCT_NAME := twrp_X6820
+PRODUCT_NAME := omni_X6820
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Zero Ultra
 PRODUCT_MANUFACTURER := infinix
