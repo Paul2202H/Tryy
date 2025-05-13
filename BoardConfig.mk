@@ -187,3 +187,25 @@ TARGET_USES_LOGD := true
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_Infinix-X6820
 TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6820
+
+
+
+SHRP_DARK := true
+SHRP_FLASH := 1
+SHRP_OFFICIAL := true
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
+SHRP_FLASH_MAX_BRIGHTNESS := 1
+SHRP_DEVICE_CODE := X6820
+SHRP_MAINTAINER := VALE
+SHRP_REC_TYPE := SAR
+SHRP_PATH := device/infinix/$(SHRP_DEVICE_CODE)
+SHRP_DEVICE_TYPE := A_Only
+SHRP_PATH := device/infinix/$(SHRP_DEVICE_CODE)
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_STATUSBAR_RIGHT_PADDING := 48
+SHRP_STATUSBAR_LEFT_PADDING := 48
+SHRP_NOTCH := true
